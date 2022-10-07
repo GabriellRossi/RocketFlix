@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+html {
+  /* chrome://flags/#smooth-scrolling */
+  scroll-behavior: smooth;
+}
+
+/* html,
+body {
+  width: 100%;
+  height: 100%;
+} */
+
+body {
+  background-image: url(./assets/bg.png);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #121214;
+  text-align: center;
+  font-size: 1.6rem;
+  overflow: overlay;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo img {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.titulo h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 60px;
+  text-align: center;
+  color: #fffcf9;
+  margin-bottom: 3rem;
+  margin-inline: 7px;
+}
+
+.filme img {
+  margin-bottom: 2rem;
+}
+
+.filme__titulo h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #fffcf9;
+  margin-bottom: 2rem;
+}
+
+.filme__descricao {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #fffcf9;
+  margin-inline: 3rem;
+  margin-bottom: 3rem;
+}
+
+.filme__procurar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: auto;
+  gap: 1.7rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  padding: 0.8rem 0.8125rem;
+  color: #000000;
+  margin-bottom: 4.2rem;
+  background: #e9e6e3;
+  border: 2px solid #1a1a1a;
+  border-radius: 5px;
+}
+
+.filme__informacoes p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #fffcf9;
+  padding-bottom: 50px;
+  margin-inline: 2.2rem;
+}
